@@ -2,12 +2,39 @@
   text-align: center;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: lightgrey;
+}
+
+.content {
+  background-color: white;
+  border: 1px solid white;
+  padding: 20px;
+  width: 800px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
 form {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  margin-top: 50px;
 }
 
 input[type="text"] {
@@ -24,36 +51,62 @@ button {
 }
 
 button.add {
-  background-color: #61dafb;
+  background: linear-gradient(to right, #00FF00, #008000);
   color: white;
 }
 
 button.edit {
-  background-color: #fddb3a;
+  background: linear-gradient(to right, #FFD700, #FFA500);
   color: white;
   margin-right: 5px;
+  margin-left:2rem;
 }
 
 button.delete {
-  background-color: #ff5555;
+  background: linear-gradient(to right, #FF0000, #FF6347);
   color: white;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.error-message {
+  color: red;
+  margin-top: 5px;
+  text-align: center;
 }
 
 ul {
   list-style-type: none;
   padding: 0;
-  margin: 0;
+  margin-left:auto;
+  margin-right:auto;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+  
 }
 
 li {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
+  margin-left: 0px;
+  font-size: large;
+
 }
 
 li span {
   margin-right: 10px;
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+  font-size: large;
 }
