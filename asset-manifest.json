@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "//react_crud/static/css/main.4130b404.css",
-    "main.js": "//react_crud/static/js/main.78daf232.js",
-    "static/js/787.45bb5bd2.chunk.js": "//react_crud/static/js/787.45bb5bd2.chunk.js",
-    "index.html": "//react_crud/index.html",
-    "main.4130b404.css.map": "//react_crud/static/css/main.4130b404.css.map",
-    "main.78daf232.js.map": "//react_crud/static/js/main.78daf232.js.map",
-    "787.45bb5bd2.chunk.js.map": "//react_crud/static/js/787.45bb5bd2.chunk.js.map"
+    "main.css": "/react_crud/static/css/main.4130b404.css",
+    "main.js": "/react_crud/static/js/main.e62b288e.js",
+    "static/js/787.45bb5bd2.chunk.js": "/react_crud/static/js/787.45bb5bd2.chunk.js",
+    "index.html": "/react_crud/index.html",
+    "main.4130b404.css.map": "/react_crud/static/css/main.4130b404.css.map",
+    "main.e62b288e.js.map": "/react_crud/static/js/main.e62b288e.js.map",
+    "787.45bb5bd2.chunk.js.map": "/react_crud/static/js/787.45bb5bd2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4130b404.css",
-    "static/js/main.78daf232.js"
+    "static/js/main.e62b288e.js"
   ]
 }
