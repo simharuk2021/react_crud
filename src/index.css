@@ -51,19 +51,19 @@ button {
 }
 
 button.add {
-  background: linear-gradient(to right, #00FF00, #008000);
+  background:  #00FF00;
   color: white;
 }
 
 button.edit {
-  background: linear-gradient(to right, #FFD700, #FFA500);
+  background:  #FFA500;
   color: white;
   margin-right: 5px;
   margin-left:2rem;
 }
 
 button.delete {
-  background: linear-gradient(to right, #FF0000, #FF6347);
+  background: #FF0000;
   color: white;
 }
 
